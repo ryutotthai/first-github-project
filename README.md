@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Codex Chess
 
 An in-browser chess experience powered entirely by vanilla HTML, CSS, and JavaScript. No build tooling or backend is required—open `index.html` in any modern browser and start playing.
@@ -17,3 +18,5 @@ An in-browser chess experience powered entirely by vanilla HTML, CSS, and JavaSc
 3. Edit `styles.css` or `app.js` to customize visuals or behavior—changes reload instantly on refresh.
 
 No additional tooling or package managers are needed.
+=======
+>>>>>>> 393da54dd11e49b15b281aecdb21a8e57dbb12d3
