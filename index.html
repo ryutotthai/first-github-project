@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Codex Chess</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="board-panel">
+        <header class="panel-header">
+          <p id="turnIndicator" data-testid="turn-indicator">White to move</p>
+          <button id="resetBtn" class="primary-btn" type="button">Reset game</button>
+        </header>
+        <div
+          id="board"
+          class="board"
+          role="grid"
+          aria-label="Chess board with eight rows and eight columns"
+        ></div>
+      </section>
+      <aside class="info-panel">
+        <div class="info-block">
+          <h2>Game state</h2>
+          <p id="statusMessage">Select a piece to see its legal moves.</p>
+        </div>
+        <div class="info-block">
+          <h2>Move list</h2>
+          <ol id="movesList" class="moves-list"></ol>
+        </div>
+        <div class="info-block instructions">
+          <h2>How to play</h2>
+          <ul>
+            <li>Select one of your pieces to preview the legal destinations.</li>
+            <li>
+              Click a highlighted square to move. Illegal moves are automatically
+              blocked.
+            </li>
+            <li>
+              Check, checkmate, promotions, and stalemates are detected
+              automatically.
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
